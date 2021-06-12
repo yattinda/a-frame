@@ -1,4 +1,4 @@
-AFRAME.registerComponent('rand_position_num', {
+AFRAME.registerComponent('rand_position', {
   var min = 10;
   var xmin = -50;
   var max = 50;
