@@ -3,7 +3,8 @@ AFRAME.registerComponent('delete', {
   init: function () {
     this.el.addEventListener('mouseenter', function (event) {
       var me = document.getElementById(event.target.id);
-      me.removeChild(me);
+      console.log(me)
+      me.remove();
     });
   }
 });
